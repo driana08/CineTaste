@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(56, 0, 0);
+}
+.Cabecalho {
+    background-color: rgb(18, 18, 18);
+    height: 100px;
+    color: rgb(255, 255, 255);
+    font-family: "Nerko One", cursive;
+    font-size: 70px;
+    text-align: center;
+}
+.atracoes {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(137, 87, 87);
+}
+
+.estabelecimento {
+    display: flex;
+}
+#image1 {
+    width:300px;
+    height: 450px;
+    margin-left: 465px;
+}
+#image2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 200px;
+}
+.I { 
+    color: rgb(56, 0, 0);
+}
