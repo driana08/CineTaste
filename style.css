@@ -3,31 +3,96 @@ body {
 }
 .Cabecalho {
     background-color: rgb(18, 18, 18);
-    height: 100px;
-    color: rgb(255, 255, 255);
-    font-family: "Nerko One", cursive;
-    font-size: 70px;
-    text-align: center;
+    display: flex;
 }
+#cabecalho {
+    width: 100px;
+    height: 100pxs;
+    margin-left: 50px;
+}
+.cabecalhinho {
+    flex: 1;
+}
+span {
+    color:rgb(45, 82, 116) ;
+}
+ h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-size: 20px;
+    padding-top: 20px;
+ }
+
 .atracoes {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: rgb(137, 87, 87);
 }
 
+h2 {
+    text-align: center;
+    color: rgb(202, 202, 202);
+    font-family: monospace;
+}
+
 .estabelecimento {
+    display: block;
+}
+.lojas2 {
     display: flex;
 }
+
+.bottomcine1 {
+    margin-left: 565px;
+}
+
+.lojas {
+    display: flex;
+} 
+.entradas {
+    flex:1
+}
+.bottomcine2 {
+    margin-left: 320px;
+    margin-top: 20px;
+}
+
+.bottomcine {
+    margin-left: 220px;
+    margin-top: 20px;
+}
+
+#but {
+    background-color: rgb(45, 82, 116);
+    border-style: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    color: rgb(223, 230, 236);
+    font-size: 16px;
+    
+
+}
+
 #image1 {
     width:300px;
     height: 450px;
     margin-left: 465px;
+    border-radius: 30px;
+
 }
 #image2 {
     width: 200px;
     height: 200px;
-    margin-left: 200px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 155px;
 }
-.I { 
-    color: rgb(56, 0, 0);
+#image3 {
+    width: 200px;
+    height: 300px;
+    border-radius: 30px;
+    margin-top: 50px;
+    margin-left: 270px;
 }
