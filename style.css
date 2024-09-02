@@ -38,6 +38,7 @@ h2 {
 .estabelecimento {
     display: block;
 }
+
 .lojas2 {
     display: flex;
 }
@@ -62,7 +63,7 @@ h2 {
     margin-top: 20px;
 }
 
-#but {
+.but {
     background-color: rgb(45, 82, 116);
     border-style: none;
     height: 50px;
@@ -71,8 +72,6 @@ h2 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
     color: rgb(223, 230, 236);
     font-size: 16px;
-    
-
 }
 
 #image1 {
@@ -80,8 +79,8 @@ h2 {
     height: 450px;
     margin-left: 465px;
     border-radius: 30px;
-
 }
+
 #image2 {
     width: 200px;
     height: 200px;
@@ -89,6 +88,7 @@ h2 {
     margin-top: 50px;
     margin-left: 155px;
 }
+
 #image3 {
     width: 200px;
     height: 300px;
