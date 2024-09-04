@@ -1,0 +1,45 @@
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-image: url(Doceria.png);
+    background-size:auto;
+    background-attachment: scroll;
+    background-position: center top;
+    background-repeat: no-repeat;
+    min-height: 350vh;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial;
+    color: rgb(0, 0, 0);
+    margin-top: 45px;
+    font-size: 50px;
+    text-align: left;
+}
+.cabecalho {
+    display: flex;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.Cin {
+    flex: 1;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+#Logo {
+    width: 150px;
+    height: 150pxs;
+}
+.but {
+    background-color: rgb(45, 82, 116);
+    border-style: none;
+    height: 50px;
+    width: 100px;
+    border-radius: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    color: rgb(223, 230, 236);
+    font-size: 16px;
+    margin-top: 30px;
+}
